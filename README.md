@@ -1,6 +1,11 @@
 # General
 - **Name**: Zoya Chishtie
-- This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io 
+- This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
+
+## Repo Screenshot
+<p align="center"> 
+  <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/repo-screenshot.jpg"></a>
+</p>
 
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
