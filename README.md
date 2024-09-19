@@ -11,7 +11,7 @@
 ## Activity 2
 ### Repo Screenshot
 <p align="center"> 
-  <a href="https://zoya5636.github.io" target="_blank"><img src="examples/repo-screenshot-2.png"></a>
+  <a href="https://zoya5636.github.io" target="_blank"><img src="examples/repo-screenshot-num-2.png"></a>
 </p>
 
 ### Website Screenshot
