@@ -745,16 +745,12 @@
       recentProjects.innerHTML = displayedProjects;
     }
     
-    // when "Load More" button is clicked, displaying one more project
+    // when "Load More" button is clicked, displaying all projects
     let loadBtn = document.querySelector("#loadMore");
     loadBtn.onclick = function() {
       recentProjects = document.getElementById("recentProjects");
-      newProjectCount = recentProjects.childElementCount + 1;
-      displayProjects(newProjectCount);
-      // if all projects have been displayed, removing button from the DOM
-      if(newProjectCount == 6) {
-        loadBtn.remove();
-      }
+      displayProjects(6);
+      loadBtn.remove();
     }
 
     // initially, only displaying the most recent project
