@@ -608,13 +608,33 @@
   <script type="text/javascript">
     // list of unsorted projects
     projects = [
+    {
+        name: `Equation Solver`,
+        description: `Created a program that can solve various mathematical equations.`,
+        accomplishments: `<li>Implemented in C.</li>
+                  <li>Program is able to identify unknown variables and solve for them.</li>`,
+        picturePath: `/assets/img/project-equation-solver.jpg`, // [4]
+        completionDate: `2021-08-12`,
+        link: `https://github.com/zoya5636/Equation-Solver`
+      },
+      {
+        name: `Capstone Design Project`,
+        description: `At the University of Toronto, designing a software for a device used to treat infected skin wounds.`,
+        accomplishments: `<li>As backend software lead, design backend architecture and lead backend development.</li>
+                  <li>Design a UI that allows physicians and patients to see relevant information and activate device.</li>
+                  <li>Use Spring boot to create endpoints that handle data retrieval and storage in a SQL database.</li>
+                  <li>Collaborate with the team responsible for the device’s hardware to create appropriate APIs.</li>`,
+        picturePath: `/assets/img/project-capstone.jpg`, // [5]
+        completionDate: `2025-04-30`,
+        link: ``
+      },
       {
         name: `Applied Fundamentals of Deep Learning Project`,
         description: `At the University of Toronto, designed a deep learning model.`,
         accomplishments: `<li>Design a convolutional neural network (CNN) with the appropriate hyperparameters to identify diabetic retinopathy with an acceptable level of accuracy.</li>
                   <li>Incorporate convolution, pooling, and fully-connected layers as needed.</li>
                   <li>Introduce data augmentation techniques to create a generalized model.</li>`,
-        picturePath: `/assets/img/project-deep-learning.jpg`,
+        picturePath: `/assets/img/project-deep-learning.jpg`, // [6]
         completionDate: `2022-12-10`,
         link: ``
       },
@@ -629,26 +649,6 @@
         picturePath: `/assets/img/project-software-communication.png`,
         completionDate: `2022-04-30`,
         link: ``
-      },
-      {
-        name: `Capstone Design Project`,
-        description: `At the University of Toronto, designing a software for a device used to treat infected skin wounds.`,
-        accomplishments: `<li>As backend software lead, design backend architecture and lead backend development.</li>
-                  <li>Design a UI that allows physicians and patients to see relevant information and activate device.</li>
-                  <li>Use Spring boot to create endpoints that handle data retrieval and storage in a SQL database.</li>
-                  <li>Collaborate with the team responsible for the device’s hardware to create appropriate APIs.</li>`,
-        picturePath: `/assets/img/project-capstone.jpg`,
-        completionDate: `2025-04-30`,
-        link: ``
-      },
-      {
-        name: `Equation Solver`,
-        description: `Created a program that can solve various mathematical equations.`,
-        accomplishments: `<li>Implemented in C.</li>
-                  <li>Program is able to identify unknown variables and solve for them.</li>`,
-        picturePath: `/assets/img/project-equation-solver.jpg`,
-        completionDate: `2021-08-12`,
-        link: `https://github.com/zoya5636/Equation-Solver`
       },
       {
         name: `Engineering Strategies and Practice II Design Project`,
@@ -689,7 +689,7 @@
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="project picture" src="${projects[i].picturePath}"
-                style="height: 100%; width: 100%" class="activator" /> <!-- [5] -->
+                style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator purple-text hoverline">${projects[i].name}<i
@@ -713,7 +713,7 @@
           displayedProjects += `<div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="project picture" src="${projects[i].picturePath}" style="height: 100%; width: 100%" class="activator" /> <!-- [4] -->
+                <img alt="project picture" src="${projects[i].picturePath}" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator purple-text hoverline">${projects[i].name}<i
